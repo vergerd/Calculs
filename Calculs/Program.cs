@@ -32,10 +32,7 @@ namespace Calculs
                     Console.Write("Choix :                          ");
                     choix = int.Parse(Console.ReadLine());
                 }
-                catch
-                {
-                    Console.WriteLine("Erreur de saisie : saisissez parmi 1, 2 ou 0");
-                }
+                
             }
             // traitement des choix
             if (choix != 0)
