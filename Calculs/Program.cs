@@ -17,8 +17,7 @@ namespace Calculs
             int solution; // calcul de la solution
             int reponse; // saisie de la réponse de l'utilisateur
             int choix; // saisie du choix de l'utilsiateur
-            bool correct = false;
-
+            
             // boucle sur le menu
             choix = 3;
             while (choix != 0 && choix != 1 && choix != 2)
@@ -31,6 +30,11 @@ namespace Calculs
                     Console.WriteLine("Quitter ........................ 0");
                     Console.Write("Choix :                          ");
                     choix = int.Parse(Console.ReadLine());
+                    Console.Wrtie
+                }
+                catch
+                {
+
                 }
                 
             }
