@@ -17,8 +17,7 @@ namespace Calculs
             int solution; // calcul de la solution
             int reponse; // saisie de la réponse de l'utilisateur
             int choix; // saisie du choix de l'utilsiateur
-            bool correct = false;
-
+            
             // boucle sur le menu
             choix = 3;
             while (choix != 0 && choix != 1 && choix != 2)
@@ -30,12 +29,13 @@ namespace Calculs
                     Console.WriteLine("Multiplication ................. 2");
                     Console.WriteLine("Quitter ........................ 0");
                     Console.Write("Choix :                          ");
-                    choix = int.Parse(Console.ReadLine());
+                    choix = int.Parse(Console.ReadLine());                    
                 }
                 catch
                 {
-                    Console.WriteLine("Erreur de saisie : saisissez parmi 1, 2 ou 0");
+
                 }
+                
             }
             // traitement des choix
             if (choix != 0)
