@@ -29,8 +29,7 @@ namespace Calculs
                     Console.WriteLine("Multiplication ................. 2");
                     Console.WriteLine("Quitter ........................ 0");
                     Console.Write("Choix :                          ");
-                    choix = int.Parse(Console.ReadLine());
-                    Console.Wrtie
+                    choix = int.Parse(Console.ReadLine());                    
                 }
                 catch
                 {
